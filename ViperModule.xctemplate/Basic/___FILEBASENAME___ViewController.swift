@@ -19,14 +19,14 @@ final class ___VARIABLE_viperModuleName___ViewController: UIViewController {
   
   // MARK: Properties
   
-  var presenter: ___VARIABLE_viperModuleName___PresenterProtocol!
+  var presenter: ___VARIABLE_viperModuleName___PresenterProtocol?
   // <#Properties#>
 
   // MARK: View Life Cycle
   
   override func viewDidLoad() {
     super.viewDidLoad()
-    presenter.onViewDidLoad()
+    presenter?.onViewDidLoad()
   }
   
   // MARK:

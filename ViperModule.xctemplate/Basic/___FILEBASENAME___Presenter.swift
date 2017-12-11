@@ -20,8 +20,8 @@ final class ___VARIABLE_viperModuleName___Presenter {
   
   // MARK: Properties
   
-  weak var view: ___VARIABLE_viperModuleName___ViewProtocol!
-  var wireframe: ___VARIABLE_viperModuleName___WireframeProtocol!
+  weak var view: ___VARIABLE_viperModuleName___ViewProtocol?
+  var wireframe: ___VARIABLE_viperModuleName___WireframeProtocol?
   // <#Properties#>
   
   // MARK: Initializing
