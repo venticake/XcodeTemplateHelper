@@ -9,35 +9,44 @@
 import Foundation
 
 protocol ___VARIABLE_viperModuleName___PresenterProtocol: class {
-  // View -> Presenter
-  func onViewDidLoad()
-  // <#Protocols#>
+    // View -> Presenter
+    func onViewDidLoad()
+}
+
+protocol ___VARIABLE_viperModuleName___InteractorOutputProtocol: class {
+    // Interactor -> Presenter
 }
 
 // MARK: - Class Implementation
 
 final class ___VARIABLE_viperModuleName___Presenter {
   
-  // MARK: Properties
-  
-  weak var view: ___VARIABLE_viperModuleName___ViewProtocol?
-  var wireframe: ___VARIABLE_viperModuleName___WireframeProtocol?
-  // <#Properties#>
-  
-  // MARK: Initializing
-  
-  init() {
+    // MARK: Properties
     
-  }
-  
-  // MARK:
+    weak var view: ___VARIABLE_viperModuleName___ViewProtocol?
+    var wireframe: ___VARIABLE_viperModuleName___WireframeProtocol?
+    var interactor: ___VARIABLE_viperModuleName___InteractorInputProtocol?
+    // <#Properties#>
+
+    // MARK: Initializing
+    
+    init() {
+        
+    }
   
 }
 
 // MARK: - PresenterProtocol
 
 extension ___VARIABLE_viperModuleName___Presenter: ___VARIABLE_viperModuleName___PresenterProtocol {
-  func onViewDidLoad() {
-    
-  }
+    func onViewDidLoad() {
+        
+    }
 }
+
+// MARK: - InteractorOutputProtocol
+
+extension ___VARIABLE_viperModuleName___Presenter: ___VARIABLE_viperModuleName___InteractorOutputProtocol {
+  
+}
+

@@ -52,7 +52,6 @@
 			<key>Values</key>
 			<array>
 				<string>Basic</string>
-				<string>with Interactor</string>
 			</array>
 			<key>Default</key>
 			<string>Basic</string>
