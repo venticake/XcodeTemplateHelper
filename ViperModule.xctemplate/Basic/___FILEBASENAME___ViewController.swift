@@ -19,6 +19,7 @@ final class ___VARIABLE_viperModuleName___ViewController: UIViewController {
     // MARK: Properties
     
     var presenter: ___VARIABLE_viperModuleName___PresenterProtocol?
+    var viewModel: ___VARIABLE_viperModuleName___ViewModel?
     
     // MARK: View Life Cycle
     

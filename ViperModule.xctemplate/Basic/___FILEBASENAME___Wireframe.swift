@@ -24,6 +24,8 @@ final class ___VARIABLE_viperModuleName___Wireframe: ___VARIABLE_viperModuleName
         let wireframe = ___VARIABLE_viperModuleName___Wireframe()
         let presenter = ___VARIABLE_viperModuleName___Presenter()
         let interactor = ___VARIABLE_viperModuleName___Interactor()
+        let dataStore = ___VARIABLE_viperModuleName___DataStore()
+        let apiService = ___VARIABLE_viperModuleName___ApiService()
         
         view.presenter = presenter
         wireframe.view = view
@@ -31,6 +33,8 @@ final class ___VARIABLE_viperModuleName___Wireframe: ___VARIABLE_viperModuleName
         presenter.wireframe = wireframe
         presenter.interactor = interactor
         interactor.presenter = presenter
+        interactor.apiService = apiService
+        interactor.dataStore = dataStore
         return view
     }
     
