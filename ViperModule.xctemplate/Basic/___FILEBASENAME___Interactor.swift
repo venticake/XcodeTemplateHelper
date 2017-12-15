@@ -20,6 +20,5 @@ final class ___VARIABLE_viperModuleName___Interactor: ___VARIABLE_viperModuleNam
   
     weak var presenter: ___VARIABLE_viperModuleName___InteractorOutputProtocol?
     var dataStore: ___VARIABLE_viperModuleName___DataStoreProtocol?
-    var apiService: ___VARIABLE_viperModuleName___ApiServiceProtocol?
   
 }
