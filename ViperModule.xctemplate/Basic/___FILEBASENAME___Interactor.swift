@@ -19,6 +19,5 @@ final class ___VARIABLE_viperModuleName___Interactor: ___VARIABLE_viperModuleNam
     // MARK: Properties
   
     weak var presenter: ___VARIABLE_viperModuleName___InteractorOutputProtocol?
-    var dataStore: ___VARIABLE_viperModuleName___DataStoreProtocol?
   
 }
